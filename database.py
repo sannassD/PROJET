@@ -122,6 +122,14 @@ class DatabaseManager:
         conn.commit()
         conn.close()
 
+    def get_candidat(self, numero_table):
+        conn = self.connect()
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM Candidat WHERE Numero_Table = ?", (numero_table,))
+        candidat = cursor.fetchone()
+        conn.close()
+        return candidat
+
     def candidate_exists(self, candidat_data):
         """
         Vérifie si un candidat avec le même Numero_Table et Date_Naissance existe déjà.
@@ -269,9 +277,6 @@ class DatabaseManager:
         existing_jury = cursor.fetchone()
         conn.close()
         return existing_jury is not None
-
-
-
 
 
     def add_jury(self, jury_data):

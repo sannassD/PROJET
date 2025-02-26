@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d093f31b-1dde-4c0f-a9fc-8f8d74ad70ae" name="Changes" comment="" />
+    <list default="true" id="d093f31b-1dde-4c0f-a9fc-8f8d74ad70ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_deliberation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releve_111222.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_calcul.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_calcul.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/anonymat.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/anonymat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pdf_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/pdf_tab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/releve_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/releve_tab.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +29,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sannassD"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="7c124d27-9d7b-426c-b09e-0ab2c81a847b" />
-        <option name="url" value="https://github.com/sannassD/Projet-BFEEM.git" />
+        <option name="url" value="https://github.com/sannassD/PROJET.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -44,15 +59,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_calcul.TestCalcul.executor": "Run",
     "Python tests.Python tests in test_calcul.py.executor": "Run",
     "Python tests.Python tests in test_database.py.executor": "Run",
+    "Python tests.Python tests in test_deliberation.py.executor": "Run",
     "Python.database.executor": "Run",
     "Python.main.executor": "Run",
     "Python.notes_tab.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "projet"
   }
 }]]></component>
   <component name="RunManager" selected="Python.main">
@@ -76,6 +93,21 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_calcul.TestCalcul" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calcul.TestCalcul&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_calcul.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -108,11 +140,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_deliberation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_deliberation.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests in test_database.py" />
+        <item itemvalue="Python tests.Python tests for test_calcul.TestCalcul" />
         <item itemvalue="Python tests.Python tests in test_calcul.py" />
+        <item itemvalue="Python tests.Python tests in test_deliberation.py" />
+        <item itemvalue="Python tests.Python tests in test_database.py" />
       </list>
     </recent_temporary>
   </component>
